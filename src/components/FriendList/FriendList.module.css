@@ -1,0 +1,43 @@
+.list {
+  width: 300px;
+  padding: 15px;
+  border: solid 1px rgb(211, 221, 221);
+  list-style: none;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  box-shadow: 0 0 1px;
+  border-radius: 5px;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.statusOnline,
+.statusOffline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
+}
+
+.avatar {
+  display: block;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.name {
+  margin: 0 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
